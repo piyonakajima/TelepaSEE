@@ -10,10 +10,13 @@ import android.util.Log;
 
 import java.util.List;
 
+
+
+
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
     SensorManager mSensorManager;
-    String TAG = "MainActivity";
+    String TAG = "MainActivity";//tag comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
